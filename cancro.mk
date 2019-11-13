@@ -70,6 +70,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.msm8974
 
+# Tri-state keys
+PRODUCT_PACKAGES += \
+    KeyHandler
+
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.cancro
