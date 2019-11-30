@@ -10,3 +10,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=Ratoriku

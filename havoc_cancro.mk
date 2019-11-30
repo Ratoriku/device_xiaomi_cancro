@@ -17,9 +17,9 @@
 $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_cancro
+PRODUCT_NAME := havoc_cancro
 PRODUCT_DEVICE := cancro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
@@ -28,3 +28,5 @@ PRODUCT_MODEL := MI Cancro
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_CONTINUOUS_SPLASH_ENABLED := true
+
+export export HAVOC_BUILD_TYPE=Official
