@@ -9,7 +9,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.fluence.speaker=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=480
+    ro.sf.lcd_density=420
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.havoc.maintainer=Ratoriku
