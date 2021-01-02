@@ -17,9 +17,9 @@
 $(call inherit-product, device/xiaomi/cancro/cancro.mk)
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
-PRODUCT_NAME := lineage_cancro
+PRODUCT_NAME := arrow_cancro
 PRODUCT_DEVICE := cancro
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
