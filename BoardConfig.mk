@@ -21,6 +21,9 @@ DEVICE_PATH := device/xiaomi/cancro
 # Audio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
+# Backuptool
+TARGET_DISABLE_BACKUPTOOL := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
